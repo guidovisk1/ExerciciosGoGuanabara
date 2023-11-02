@@ -12,7 +12,7 @@ func main() {
 	//Exer5()
 	//Exer6(2)
 	// fmt.Println(Exerc7(20, 4))
-	Exer8()
+	//Exer8()
 }
 
 func Exer2() {
