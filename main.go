@@ -11,6 +11,7 @@ func main() {
 	//Exer4()
 	//Exer5()
 	//Exer6(2)
+	fmt.Println(Exerc7(20, 4))
 }
 
 func Exer2() {
@@ -86,4 +87,14 @@ func Exer6(number int) {
 
 	println("A raiz quadrada de", value, "é", math.Sqrt(value2))
 
+}
+
+func Exerc7(n1 float64, n2 float64) float64 {
+
+	media := Exerc7a(n1, n2)
+	return media
+}
+
+func Exerc7a(num1, num2 float64) float64 { // Pegando a média
+	return (num1 + num2) / 2
 }
