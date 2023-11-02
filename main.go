@@ -11,7 +11,8 @@ func main() {
 	//Exer4()
 	//Exer5()
 	//Exer6(2)
-	fmt.Println(Exerc7(20, 4))
+	// fmt.Println(Exerc7(20, 4))
+	Exer8()
 }
 
 func Exer2() {
@@ -97,4 +98,20 @@ func Exerc7(n1 float64, n2 float64) float64 {
 
 func Exerc7a(num1, num2 float64) float64 { // Pegando a média
 	return (num1 + num2) / 2
+}
+
+func Exer8() {
+	var number float64
+
+	fmt.Println("Digite uma distância em metros")
+	fmt.Scan(&number)
+
+	fmt.Printf("A conversão de %.3f metros é\n", number) // %.2f especifica duas casas decimais
+	fmt.Printf("%.3f km /", number/1000)
+	fmt.Printf("%.2f hm /", number/100)
+	fmt.Printf("%.2f dam /", number/10)
+	fmt.Printf("%.2f dm /", number*10)
+	fmt.Printf("%.2f cm /", number*100)
+	fmt.Printf("%.2f mm /", number*1000)
+
 }
