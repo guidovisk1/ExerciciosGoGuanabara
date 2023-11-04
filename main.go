@@ -137,7 +137,7 @@ func Exerc9a(numero int) {
 	var number int
 	fmt.Println("Digite um número")
 	fmt.Scan(&number)
-	for i := 0; i < 9; i++ {
-		fmt.Println(number)
+	for i := 0; i < 11; i++ {
+		fmt.Println(number, "*", i, "=", number*(i+1)-number)
 	}
 }
