@@ -13,6 +13,7 @@ func main() {
 	//Exer6(2)
 	// fmt.Println(Exerc7(20, 4))
 	//Exer8()
+	Exerc9(2)
 }
 
 func Exer2() {
@@ -113,5 +114,22 @@ func Exer8() {
 	fmt.Printf("%.2f dm /", number*10)
 	fmt.Printf("%.2f cm /", number*100)
 	fmt.Printf("%.2f mm /", number*1000)
+
+}
+
+func Exerc9(numero int) {
+	var number int
+	fmt.Println("Digite um número")
+	fmt.Scan(&number)
+	fmt.Println(number, "x 1 =", number*1)
+	fmt.Println(number, "x 2 =", number*2)
+	fmt.Println(number, "x 3 =", number*3)
+	fmt.Println(number, "x 4 =", number*4)
+	fmt.Println(number, "x 5 =", number*5)
+	fmt.Println(number, "x 6 =", number*6)
+	fmt.Println(number, "x 7 =", number*7)
+	fmt.Println(number, "x 8 =", number*8)
+	fmt.Println(number, "x 9 =", number*9)
+	fmt.Println(number, "x 10 =", number*10)
 
 }
