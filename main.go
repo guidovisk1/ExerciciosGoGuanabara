@@ -14,7 +14,8 @@ func main() {
 	// fmt.Println(Exerc7(20, 4))
 	//Exer8()
 	//Exerc9()
-	Exerc9a(12)
+	//Exerc9a(12)
+	Exerc10()
 }
 
 func Exer2() {
@@ -140,4 +141,13 @@ func Exerc9a(numero int) {
 	for i := 0; i < 11; i++ {
 		fmt.Println(number, "*", i, "=", number*(i+1)-number)
 	}
+}
+
+func Exerc10() {
+	var numero float64
+
+	fmt.Println("Quantos reais voce tem?")
+	fmt.Scan(&numero)
+
+	fmt.Println("Com R$", numero, "voce pode comparar USD", numero/5)
 }
