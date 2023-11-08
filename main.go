@@ -15,7 +15,8 @@ func main() {
 	//Exer8()
 	//Exerc9()
 	//Exerc9a(12)
-	Exerc10()
+	//Exerc10()
+	Exerc11()
 }
 
 func Exer2() {
@@ -150,4 +151,18 @@ func Exerc10() {
 	fmt.Scan(&numero)
 
 	fmt.Println("Com R$", numero, "voce pode comparar USD", numero/5)
+}
+
+func Exerc11() {
+	fmt.Println("Largura da parede")
+	var n1 float64
+	fmt.Scan(&n1)
+
+	fmt.Println("Altura da parede")
+	var n2 float64
+	fmt.Scan(&n2)
+
+	area := n1 * n2
+	fmt.Println("A sua area tem", area, "m2")
+	fmt.Println("Para pintar essa parede, você precisará de", area/2, "l de tinta")
 }
