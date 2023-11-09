@@ -16,7 +16,8 @@ func main() {
 	//Exerc9()
 	//Exerc9a(12)
 	//Exerc10()
-	Exerc11()
+	//Exerc11()
+	Exerc12()
 }
 
 func Exer2() {
@@ -165,4 +166,15 @@ func Exerc11() {
 	area := n1 * n2
 	fmt.Println("A sua area tem", area, "m2")
 	fmt.Println("Para pintar essa parede, você precisará de", area/2, "l de tinta")
+}
+
+func Exerc12() {
+	var number float64
+	fmt.Println("Digite um valor")
+	fmt.Scan(&number)
+
+	desconto := number * 0.05
+	promocao := number - desconto
+
+	fmt.Println("O produto que custava", number, "na promoção de 5% irá custar", promocao)
 }
