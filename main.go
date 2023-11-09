@@ -17,7 +17,8 @@ func main() {
 	//Exerc9a(12)
 	//Exerc10()
 	//Exerc11()
-	Exerc12()
+	//Exerc12()
+	Exerc13()
 }
 
 func Exer2() {
@@ -177,4 +178,15 @@ func Exerc12() {
 	promocao := number - desconto
 
 	fmt.Println("O produto que custava", number, "na promoção de 5% irá custar", promocao)
+}
+
+func Exerc13() {
+	var number float64
+	fmt.Println("Digite o salario do funcionário")
+	fmt.Scan(&number)
+
+	porcentagem := number * 0.15
+	novo_salario := number + porcentagem
+	fmt.Println("O funcionario que ganhava", number, "na promoção de 15% irá ganhar", novo_salario)
+
 }
