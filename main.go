@@ -18,7 +18,8 @@ func main() {
 	//Exerc10()
 	//Exerc11()
 	//Exerc12()
-	Exerc13()
+	//Exerc13()
+	Exerc14()
 }
 
 func Exer2() {
@@ -189,4 +190,16 @@ func Exerc13() {
 	novo_salario := number + porcentagem
 	fmt.Println("O funcionario que ganhava", number, "na promoção de 15% irá ganhar", novo_salario)
 
+}
+
+func Exerc14() {
+	var number float64
+	fmt.Println("Digite o valor da temperatura em Celsius")
+	fmt.Scan(&number)
+	fmt.Println(number)
+
+	primeiro := number * 1.8
+	resultado := primeiro + 32
+
+	fmt.Println("Sua temperatura em Fahrenheit é de ", resultado)
 }
