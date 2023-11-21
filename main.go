@@ -19,7 +19,8 @@ func main() {
 	//Exerc11()
 	//Exerc12()
 	//Exerc13()
-	Exerc14()
+	//Exerc14()
+	Exerc15()
 }
 
 func Exer2() {
@@ -38,12 +39,10 @@ func Exer2() {
 func Exer3() {
 	fmt.Println("Digite um valor")
 	var n1 int
-
 	fmt.Scan(&n1)
 
 	fmt.Println("Digite outro valor")
 	var n2 int
-
 	fmt.Scan(&n2)
 
 	soma := n1 + n2
@@ -202,4 +201,21 @@ func Exerc14() {
 	resultado := primeiro + 32
 
 	fmt.Println("Sua temperatura em Fahrenheit é de ", resultado)
+}
+
+func Exerc15() {
+	fmt.Println("Digite o valor em KM")
+	var km float64
+	fmt.Scan(&km)
+
+	fmt.Println("Digite a quantidade de dias com o carro alugado")
+	var dias float64
+	fmt.Scan(&dias)
+
+	preco_dia := dias * 60
+	preco_km := km * 0.15
+
+	valor_total := preco_dia + preco_km
+
+	fmt.Println("O valor total foi de ", valor_total)
 }
